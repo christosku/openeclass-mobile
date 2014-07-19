@@ -23,7 +23,7 @@ function ilv__Connect() {
 	});
 
 	$("#announcements-btn").click(function() {
-	$("#page-title p span").html("Ανακοινώσεις");
+		$("#page-title p span").html("Ανακοινώσεις");
 		subject._ilv_action = "announcements";
 		subject.getAnnouncements(null);
 	});
